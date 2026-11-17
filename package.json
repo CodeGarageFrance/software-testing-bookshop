@@ -1,0 +1,22 @@
+{
+  "name": "bookshop-testing",
+  "version": "1.0.0",
+  "description": "A small in-memory bookshop written in TypeScript (OOP), used as a playground to learn software testing.",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0",
+    "@vitest/coverage-v8": "^5.1.0",
+    "tsx": "^4.23.15",
+    "@types/node": "^26.6.6"
+  }
+}
