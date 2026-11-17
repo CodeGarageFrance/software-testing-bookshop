@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { Customer } from '../src/Customer';
+import { Customer } from '../../src/Customer';
 
 // Example test file
 describe('Customer', () => {
